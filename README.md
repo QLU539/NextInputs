@@ -1,10 +1,3 @@
-# 用于 Java 程序
-
-**NextInputs** 基于 FireEye [https://github.com/yoojia/FireEye](https://github.com/yoojia/FireEye) 升级而来，
-继承了FireEye校验功能，并具有良好的扩展性，你可以根据业务需要创建自定义的校验规则。
-
-NextInputs项目地址：[https://github.com/yoojia/NextInputs](https://github.com/yoojia/NextInputs)
-
 # NextInputs 的功能特性
 
 * 轻量级，纯JDK实现，无任何第三方库依赖；
@@ -15,6 +8,7 @@ NextInputs项目地址：[https://github.com/yoojia/NextInputs](https://github.c
 * 支持自定义错误消息提示;
 
 **NextInputs** 内建了两种校验模式分类：`静态校验模式`、`数值校验模式`。
+
 使用NextInputs能够极大地提升开发效率，内置的多个校验模式已能应付开发常用的校验需求，如有特殊校验需求，通过扩展接口也能快速解决。
 
 ## 使用示例
@@ -50,7 +44,16 @@ dependencies {
     compile 'com.github.yoojia:next-inputs:1.8'
 }
 ```
+## 配置 maven 依赖
 
+http://mvnrepository.com/artifact/com.github.yoojia/next-inputs
+```groovy
+<dependency>
+    <groupId>com.github.yoojia</groupId>
+    <artifactId>next-inputs</artifactId>
+    <version>1.8</version>
+</dependency>
+```
 ----
 
 # StaticScheme - 静态校验模式
