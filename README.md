@@ -5,15 +5,6 @@
 
 NextInputs项目地址：[https://github.com/yoojia/NextInputs](https://github.com/yoojia/NextInputs)
 
-# 用于 Android 程序
-
-NextInputs-Android 是基于NextInputs的扩展库，为Android提供TextView、EditText等控件的扩展功能；
-**Android扩展项目地址：**[https://github.com/yoojia/NextInputs-Android](https://github.com/yoojia/NextInputs-Android)
-
-[![BuildStatus](https://travis-ci.org/yoojia/NextInputs.svg?branch=master)](https://travis-ci.org/yoojia/NextInputs)
-
-----
-
 # NextInputs 的功能特性
 
 * 轻量级，纯JDK实现，无任何第三方库依赖；
@@ -25,8 +16,6 @@ NextInputs-Android 是基于NextInputs的扩展库，为Android提供TextView、
 
 **NextInputs** 内建了两种校验模式分类：`静态校验模式`、`数值校验模式`。
 使用NextInputs能够极大地提升开发效率，内置的多个校验模式已能应付开发常用的校验需求，如有特殊校验需求，通过扩展接口也能快速解决。
-
-----
 
 ## 使用示例
 
